@@ -29,7 +29,6 @@ header img {
 .background_div {
     background-image: url("/assets/img/banner.jpg");
     background-size: contain;
-
     padding: 10%;
     max-width: 100%;
 }
@@ -58,7 +57,10 @@ main a {
     border-radius: 5px;
     color: white;
     text-decoration: none;
+}
 
+main a:hover {
+    background-color: #E0452C;
 }
 
 main h2 {
@@ -77,6 +79,16 @@ main h2 {
     background-color: #FA4F30;
     color: white;
     padding: 30px
+}
+
+.background_div2 h5 {
+    font-size: small;
+    margin-top: 5px;
+}
+
+.background_div2 h6 {
+    font-size: xx-small;
+    margin-top: 5px;
 }
 
 main h3 {
@@ -107,6 +119,13 @@ main h3 {
     border-color: rgb(191, 191, 191);
     margin-bottom: 20px;
     padding-bottom: 25px;
+}
+
+.card:hover {
+    transform: scale(1.03);
+    /* Ingrandisce l'immagine del 3% */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    /* Aggiunge un'ombra */
 }
 
 main h4 {
