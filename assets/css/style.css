@@ -1,0 +1,151 @@
+/* Your styles here */
+
+body {
+    max-width: 380px;
+    margin: auto;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+p:not(footer p):not(.background_div2 p) {
+    color: rgb(67, 67, 67);
+}
+
+/* HEADER */
+header {
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    max-width: 100%;
+
+}
+
+header img {
+    max-width: 40%;
+}
+
+/* MAIN */
+
+.background_div {
+    background-image: url("/assets/img/banner.jpg");
+    background-size: contain;
+
+    padding: 10%;
+    max-width: 100%;
+}
+
+main {
+    text-align: center;
+}
+
+main h1 {
+    color: #22AACC;
+    font-size: xx-large;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+main p {
+    margin: 15px;
+}
+
+main a {
+    background-color: #FA4F30;
+    padding: 3%;
+    font-size: medium;
+    font-weight: 700;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+
+}
+
+main h2 {
+    color: #22AACC;
+    font-weight: 600;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.banner1 {
+    border-radius: 50%;
+    max-width: 60%;
+}
+
+.background_div2 {
+    background-color: #FA4F30;
+    color: white;
+    padding: 30px
+}
+
+main h3 {
+    font-weight: 700;
+    font-size: xx-large;
+    margin-bottom: 30px;
+    font-family: "Montserrat", sans-serif;
+}
+
+.corsivo {
+    font-style: italic;
+}
+
+/* CARD */
+
+.div_card {
+    padding: 15px;
+}
+
+.card_image {
+    max-width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.card {
+    border: thin solid;
+    border-color: rgb(191, 191, 191);
+    margin-bottom: 20px;
+    padding-bottom: 25px;
+}
+
+main h4 {
+    color: #22AACC;
+    font-weight: 600;
+    margin: 20px;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: #22AACC;
+    text-align: center;
+    padding: 20px;
+}
+
+footer h1 {
+    font-size: x-large;
+    margin-bottom: 15px;
+}
+
+footer a {
+    color: white;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.mr {
+    margin-right: 4px;
+}
+
+.mt {
+    margin-top: 10px;
+}
+hr {
+    width: 50%; 
+    margin: 20px auto;
+    border: none; 
+    border-top: 1px solid #ccc; 
+}
