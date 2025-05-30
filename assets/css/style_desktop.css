@@ -1,7 +1,7 @@
 /* Your styles here */
 
 body {
-    max-width: 380px;
+    max-width: 100%;
     margin: auto;
     font-family: "Open Sans", sans-serif;
 
@@ -14,29 +14,28 @@ p:not(footer p):not(.background_div2 p) {
 /* HEADER */
 header {
     background-color: black;
-    padding: 30px;
-    text-align: center;
+    padding: 10px;
+    text-align: start;
     max-width: 100%;
+    max-height: 30px;
 
 }
 
 header img {
-    max-width: 40%;
+    max-width: 75px;
 }
 
 /* MAIN */
 
 .background_div {
     background-image: url("/assets/img/banner.jpg");
-    background-size: contain;
-
-    padding: 10%;
-    max-width: 100%;
-}
-
-main {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 8%;
     text-align: center;
 }
+
 
 main h1 {
     color: #22AACC;
@@ -46,38 +45,60 @@ main h1 {
     font-family: "Montserrat", sans-serif;
 }
 
-main p {
-    margin: 15px;
-}
-
 main a {
     background-color: #FA4F30;
-    padding: 3%;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: medium;
     font-weight: 700;
     border-radius: 5px;
     color: white;
     text-decoration: none;
-
+    display: block;
+    margin: 20px auto;
+    width: 150px;
 }
 
 main h2 {
     color: #22AACC;
     font-weight: 600;
-    margin: 20px;
+    margin-top: 20px;
     font-family: "Montserrat", sans-serif;
 }
 
 .banner1 {
     border-radius: 50%;
-    max-width: 60%;
+    max-width: 22%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 35px;
+    text-align: start;
+}
+
+.container p {
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 .background_div2 {
     background-color: #FA4F30;
     color: white;
-    padding: 30px
+    padding: 30px;
+    text-align: center;
 }
+
+.background_div2 h6 {
+    font-size: x-small;
+    margin-top: 5px;
+}
+
 
 main h3 {
     font-weight: 700;
@@ -88,6 +109,7 @@ main h3 {
 
 .corsivo {
     font-style: italic;
+    margin-bottom: 15px;
 }
 
 /* CARD */
@@ -97,16 +119,25 @@ main h3 {
 }
 
 .card_image {
-    max-width: 100%;
+    max-width: 360px;
     background-size: contain;
     background-repeat: no-repeat;
+    height: 280px;
+    background-position: center;
 }
 
 .card {
     border: thin solid;
     border-color: rgb(191, 191, 191);
-    margin-bottom: 20px;
     padding-bottom: 25px;
+    margin: 20px;
+    text-align: center;
+    height: 370px;
+    max-width: 360px;
+}
+
+.card p {
+    margin: 15px;
 }
 
 main h4 {
@@ -121,9 +152,10 @@ main h4 {
 footer {
     color: white;
     background-color: #22AACC;
-    text-align: center;
     padding: 20px;
+    text-align: center;
 }
+
 
 footer h1 {
     font-size: x-large;
@@ -135,10 +167,19 @@ footer h6 {
     font-size: small;
 }
 
+footer div {
+    display: inline-block;
+    text-align: left;
+}
+
+footer div a {
+    color: white;
+    margin-top: 10px;
+    display: block;
+}
+
 footer a {
     color: white;
-    display: inline-block;
-    margin-top: 10px;
 }
 
 .mr {
@@ -150,7 +191,7 @@ footer a {
 }
 
 hr {
-    width: 50%;
+    width: 20%;
     margin: 20px auto;
     border: none;
     border-top: 1px solid #ccc;
